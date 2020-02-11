@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-11T10:52:35.296Z",
+        "line": 5,
+        "name": "Add Two Num",
+        "description": "",
+        "id": "test-calculator;add-two-num",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1859400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter 50 in claculator",
+            "match": {
+              "location": "CstepFile.fun1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 124800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I press Add",
+            "match": {
+              "location": "CstepFile.fun2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have enter 50 in claculator",
+            "match": {
+              "location": "CstepFile.funm3()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I press equal symbol",
+            "match": {
+              "location": "CstepFile.fun4()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 259800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the result should be 100 on the system",
+            "match": {
+              "location": "CstepFile.fun5()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Calculator",
+    "description": "  I want to use this template for my feature file",
+    "id": "test-calculator",
+    "keyword": "Feature",
+    "uri": "classpath:Pkg1/Cucu1.feature",
+    "tags": []
+  }
+]
